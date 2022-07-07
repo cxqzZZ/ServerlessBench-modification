@@ -20,7 +20,7 @@ The parameter is `{"name":"Messi"}`
     
     **Usage:** 
     ```bash
-    ./single-code_warm [-m <mode>] [-t <loop times>] [-w <warm up times>] [-r <result file>] [-l] [-W] [-R]
+    ./single-code_warm [-m <mode>] [-t <loop times>] [-w <warm up times>] [-r <result filename>][-r <result file>] [-l] [-W] [-R] 
     ```
     Invoke the action one by one, and echo the invoking timestamp, starting timestamp and the returning timestamp.
 
@@ -56,7 +56,7 @@ The parameter is `{"name":"Messi"}`
 
     * -l
       
-      Output the timestamps to the log.
+      Output the timestamps to the log (LOGFILE=$ACTIONNAME-$MODE.csv)
     
     * -W
 
